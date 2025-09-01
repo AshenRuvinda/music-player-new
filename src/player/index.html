@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="assets/logo.png" alt="App Logo" class="logo">
+    <h1>My Music Player</h1>
+    <input type="file" id="file-input" multiple accept="audio/*">
+    <div class="player">
+      <img id="cover-art" src="assets/default-cover.jpg" alt="Cover Art">
+      <div id="song-info">
+        <p id="song-title">No song selected</p>
+        <p id="song-artist"></p>
+      </div>
+      <ul id="playlist"></ul>
+      <div class="controls">
+        <button id="prev-btn">Previous</button>
+        <button id="play-pause-btn">Play</button>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+    <audio id="audio-player"></audio>
+  </div>
+  <script src="../utils/fileHandler.js"></script>
+  <script src="player.js"></script>
+</body>
+</html>

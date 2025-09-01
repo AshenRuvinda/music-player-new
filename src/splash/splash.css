@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: transparent;
+    font-family: Arial, sans-serif;
+  }
+  
+  .splash-container {
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p {
+    color: #cccccc;
+    font-size: 16px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

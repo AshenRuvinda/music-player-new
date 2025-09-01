@@ -1,0 +1,15 @@
+{
+    "name": "music-player",
+    "version": "1.0.0",
+    "description": "A local music player built with Electron.js",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "electron": "^31.4.0",
+      "music-metadata-browser": "^2.5.10"
+    }
+  }
